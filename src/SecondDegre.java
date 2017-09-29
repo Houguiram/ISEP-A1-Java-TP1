@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class SecondDegre {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in); //Création du scanner pour lire les longueurs du pavé droit
+		Scanner scan = new Scanner(System.in); //Création du scanner
 		System.out.println("Entrez les coefficients (a*x^2+b*x+c) :" );
 		System.out.println("a = ?");
 		double a = scan.nextDouble();
